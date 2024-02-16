@@ -1,5 +1,4 @@
 body {
-  /* background-color: rgb(191, 212, 249); */
   background: radial-gradient(circle, #beddf1, #bbd7ff, rgb(142, 185, 240));
   display: flex;
   flex-direction: column;
@@ -9,15 +8,9 @@ body {
 }
 
 .container {
-  /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-  /* border: 2px solid blue; */
   width: 20em;
   height: 15em;
   border-radius: 15px;
-  /* margin-top: 10em; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,7 +26,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(2, 83, 197);
-  /* background-color: rgb(161, 194, 251); */
   font-size: 20px;
   border-radius: 7px;
   border-color: rgb(41, 122, 235);
@@ -42,7 +34,6 @@ body {
 .Loginbtn:hover {
   background-color: rgb(219, 232, 250);
   cursor: pointer;
-  /* color: black; */
 }
 
 .heading {
