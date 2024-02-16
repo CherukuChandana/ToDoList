@@ -1,0 +1,500 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 50em;
+  width: 70em;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+  border: 2px solid rgb(41, 122, 235);
+  background: radial-gradient(circle, #beddf1, #bbd7ff, rgb(142, 185, 240));
+  top: 20vh;
+  display: flex;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.todo {
+  margin: -10px;
+  height: 30vh;
+  width: 60vh;
+}
+
+.heading i {
+  color: rgb(7, 7, 128);
+}
+
+.heading {
+  display: flex;
+  cursor: default;
+  color: rgb(7, 7, 128);
+  margin-bottom: 3px;
+  margin: 5px;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.row1 {
+  border-spacing: 5px;
+}
+
+.list-container {
+  list-style: none;
+  width: 80em;
+}
+
+.input {
+  height: 3vh;
+  width: 80vh;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 6px;
+  padding: 6px;
+  border: 2px solid rgb(41, 122, 235);
+  font-size: 14px;
+  overflow: scroll;
+  position: relative;
+}
+
+.input::placeholder {
+  color: rgb(2, 83, 197);
+}
+
+.btn {
+  height: 5.5vh;
+  width: 10vh;
+  border-radius: 13px;
+  margin-top: 10px;
+  color: rgb(2, 83, 197);
+  font-weight: bold;
+  background-color: rgb(206, 226, 254);
+  border: 2px solid rgb(41, 122, 235);
+}
+
+.btn:hover {
+  background-color: rgb(219, 232, 250);
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+.task {
+  list-style: none;
+  height: 29px;
+  width: 10em;
+  margin: 3px;
+  font-size: 20px;
+}
+
+.radiobtn {
+  height: 22px;
+  width: 22px;
+  border: 2px solid grey;
+  margin: 4px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.task i:hover {
+  background-color: #dcd3d3;
+  cursor: pointer;
+}
+
+.task i {
+  height: 18px;
+  width: 15px;
+  color: rgb(52, 52, 52);
+  margin-left: 45%;
+  margin-top: 5px;
+  background-size: 5px;
+}
+
+@media (min-width: 25rem) {
+  #box {
+    height: 25em;
+    width: 35em;
+  }
+
+  #box2 {
+    width: 50em;
+  }
+
+  #header {
+    margin-left: 10px;
+  }
+
+  .input {
+    margin-left: 16px;
+    width: 29em;
+    height: 1.5em;
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 5em;
+    height: 2.8em;
+  }
+
+  .task {
+    margin-left: 16px;
+    height: 3em;
+  }
+
+  .task i {
+    margin-left: 45%;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+  }
+
+  .con11 {
+    width: 28.7rem;
+    height: 7em;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 25rem) and (max-width: 50rem) {
+  span {
+    font-size: 1rem;
+  }
+
+  #box {
+    height: 25em;
+    width: 35em;
+  }
+
+  #box2 {
+    width: 50em;
+  }
+
+  #header {
+    margin-left: 10px;
+  }
+
+  .input {
+    margin-left: 16px;
+    width: 29em;
+    height: 1.5em;
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 5em;
+    height: 2.8em;
+  }
+
+  .task {
+    margin-left: 16px;
+    height: 3em;
+  }
+
+  .task i {
+    margin-left: 45%;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+  }
+
+  .con11 {
+    width: 28.7rem;
+    height: 7em;
+  }
+}
+
+@media (min-width: 50rem) and (max-width: 100rem) {
+  span {
+    font-size: 1rem;
+  }
+
+  #box {
+    height: 16em;
+    width: 38em;
+    height: 20em;
+    display: flex;
+    margin: auto;
+  }
+
+  #box2 {
+    width: 20em;
+  }
+
+  #header {
+    margin-left: 10px;
+  }
+
+  .input {
+    margin-left: 10px;
+    width: 60em;
+    height: 1.5em;
+  }
+
+  .btn {
+    width: 5em;
+    height: 2.8em;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    width: 70rem;
+  }
+
+  .con11 {
+    width: 30rem;
+    height: 7em;
+  }
+}
+
+@media (max-width: 100rem) {
+  #box {
+    height: 16em;
+    width: 38em;
+    display: flex;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  #box2 {
+    width: 80em;
+  }
+
+  #header {
+    margin-left: 10px;
+  }
+
+  .input {
+    margin-left: 16px;
+    width: 37em;
+    height: 1.5em;
+  }
+
+  .task {
+    margin-left: 16px;
+    height: 3em;
+  }
+
+  .btn {
+    width: 5em;
+    height: 2.8em;
+  }
+
+  .task i {
+    margin-left: 43%;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+  }
+
+  .con11 {
+    width: 35.5rem;
+    height: 7em;
+  }
+}
+
+.strikeThrough {
+  text-decoration-line: line-through;
+  padding: 3px;
+}
+
+.greenFill {
+  background-color: green;
+  border-color: green;
+  padding: 2px;
+  height: 21px;
+  margin-top: 5px;
+  width: 22px;
+}
+
+#sp {
+  margin-left: 3px;
+}
+
+span {
+  font-size: 1rem;
+}
+
+.setWidth {
+  width: 25rem;
+}
+
+@media screen and (min-width: 481px) and (max-width: 650px) {
+  span {
+    font-size: 1rem;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+  }
+
+  #box {
+    height: 17em;
+    width: 25em;
+  }
+
+  #box2 {
+    width: 15em;
+  }
+
+  #header {
+    margin-left: 10px;
+  }
+
+  .input {
+    margin-left: 10px;
+    width: 23em;
+    height: 1.5em;
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 5em;
+    height: 2.8em;
+  }
+
+  .task {
+    margin-left: 10px;
+    height: 3em;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    width: 23.5rem;
+  }
+
+  .con11 {
+    width: 28.7rem;
+    height: 7em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  span {
+    font-size: 1rem;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+  }
+
+  #box {
+    height: 30em;
+    width: 16em;
+  }
+
+  #box2 {
+    width: 15em;
+  }
+
+  #header {
+    margin-left: 4px;
+  }
+
+  .input {
+    margin-left: 4px;
+    width: 13em;
+    height: 1.5em;
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 5em;
+    height: 2.8em;
+  }
+
+  .task {
+    margin-left: 10px;
+    height: 3em;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    width: 12em;
+  }
+
+  .con11 {
+    width: 28.7rem;
+    height: 7em;
+  }
+}
+
+@media screen and (max-width: 280px) and (max-height: 653px) {
+  .row1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #box {
+    height: 17em;
+    width: 8em;
+  }
+
+  #box2 {
+    width: 10em;
+  }
+
+  #header {
+    margin-left: 10px;
+  }
+
+  .input {
+    width: 5em;
+    height: 1.5em;
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 5em;
+    height: 2.8em;
+  }
+
+  .task {
+    margin-left: 10px;
+    height: 3em;
+  }
+
+  .con1 {
+    display: flex;
+    flex-direction: row;
+    width: 17rem;
+  }
+
+  .con11 {
+    width: 28.7rem;
+    height: 7em;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+}

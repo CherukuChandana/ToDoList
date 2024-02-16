@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "todolist-v2-2308b",
+    "v2todolist": "todolist-v2-2308b",
+    "todolistv2": "todolist-v2-2308b",
+    "todolistv1": "todolist-2f8c2",
+    "todolistv2alias": "todolist-v2-2308b"
+  },
+  "targets": {},
+  "etags": {}
+}
